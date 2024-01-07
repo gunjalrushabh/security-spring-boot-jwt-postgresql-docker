@@ -1,0 +1,26 @@
+##############################
+###### GENERAL SETTINGS ######
+##############################
+server:
+  port: ${SERVER_PORT}
+  # Show error message in JSON response
+  error:
+    include-message: always
+    include-stacktrace: never
+
+spring:
+  application:
+    name: ${SPRING_APPLICATION_NAME}
+  config:
+    import:
+      - optional:file:.env[.properties]
+      - application-database.yml
+      - application-security.yml
+
+##############################
+#### SPRING DEBUG SETTING ####
+##############################
+logging:
+  level:
+    # Change to debug in development
+    root: info
