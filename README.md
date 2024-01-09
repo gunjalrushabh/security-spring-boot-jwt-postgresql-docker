@@ -1,12 +1,12 @@
 # Security with Spring Boot, JWT, PostgreSQL and Docker
 
 <b>Author:</b> <a href="https://github.com/jeffrey-spaan" target="_blank">Jeffrey Spaan</a><br>
-<b>Created:</b> 2024-01-07<br>
-<b>Last updated:</b> 2024-01-07
+<b>Created:</b> 2024-01-09<br>
+<b>Last updated:</b> 2024-01-09
 
 <div style="text-align: center;">
 
-![security-spring-boot-jwt-postgresql-docker](https://github.com/jeffrey-spaan/security-spring-boot-keycloak-h2-docker/blob/main/images/security-spring-boot-jwt-postgresql-docker.png#center)
+![security-spring-boot-jwt-postgresql-docker](https://github.com/jeffrey-spaan/security-spring-boot-jwt-postgresql-docker/blob/main/images/security-spring-boot-jwt-postgresql-docker.png#center)
 
 </div>
 
@@ -71,9 +71,9 @@ The application will start on port: ```http://localhost:8081```
 To avoid as much manual work as possible, a Postman collection is provided for you to import within your Postman installation.<br>
 This file can be found in ```src/main/resources/data/postman/import/collection-import.json```
 
-![05-postman-collection](https://github.com/spring-boot-react-nextjs/security-spring-boot-jwt-postgresql-docker/blob/main/images/05-postman-collection.jpg)
+![05-postman-collection](https://github.com/jeffrey-spaan/security-spring-boot-jwt-postgresql-docker/blob/main/images/05-postman-collection.jpg)
 
 
 <i>**NOTE:** Use the keys, provided to you in the terminal, to access the secured endpoints:</i>
 
-![06-terminal-tokens](https://github.com/spring-boot-react-nextjs/security-spring-boot-jwt-postgresql-docker/blob/main/images/06-terminal-tokens.jpg)
+![06-terminal-tokens](https://github.com/jeffrey-spaan/security-spring-boot-jwt-postgresql-docker/blob/main/images/06-terminal-tokens.jpg)
